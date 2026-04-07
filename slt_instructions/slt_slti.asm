@@ -12,3 +12,4 @@
  slti $t3, $t0, 20 # Set t3 = 1 if $t0 < 20, othwersie set $t3 = 0
  bne $t3, $zero, too_large # if $t3 == 0 (i.e $t0 >= 20), jump to 'too_large'
  
+ # TODO Implement the rest of if/else statement 
